@@ -10,10 +10,10 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
+- [x] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [x] Open the assignment in Canvas and click on the "Set up git" option.
 - [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [x] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
 - [ ] Check to see that Codegrade has accepted your git submission.
 
 For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
@@ -30,17 +30,17 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Instructions
 
-- [ ] Navigate to the root of the project with your command line.
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file.
-- [ ] Run `npm start` to compile the project and serve it.
+- [x] Navigate to the root of the project with your command line.
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file.
+- [x] Run `npm start` to compile the project and serve it.
 - [ ] Navigate Chrome to `http://localhost:3000`
 - [ ] In a separate terminal, run `npm test` to run tests.
 
 **Steps Required for MVP:**
 
-- [ ] Steps 1 and 2 are explained inside the `src/components/header.js` file.
-- [ ] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
+- [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -53,19 +53,32 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes.
-- [ ] Create a pull request to merge `<firstName-lastName>` branch into `main`.
-- [ ] Please don't merge your own pull request and make sure **you are on your own repo**.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes.
+- [x] Create a pull request to merge `<firstName-lastName>` branch into `main`.
+- [x] Please don't merge your own pull request and make sure **you are on your own repo**.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+   DOM stands for Document Object Model and is a application programming interface for HTML and XML documents. It is designed to be used with any language. You are able to access and even manipulate the page from document structure to content and much more.
+
 2. What is an event?
+
+An Event is basically a action that takes place inside of the web page. Events can be range from a simple 'click' to 'resize' to even when your mouse enters a certain part of the DOM.
+
 3. What is an event listener?
+
+A function that creates an event when a conditon occurs like clicking or moving the mouse.
+
 4. Why would we convert a NodeList into an Array?
+
+Nodelist are converted into an Array so that way we are able to make use of the array methods. Makes the task more workable and less un-needed code.
+
 5. What is a component?
+
+It is a resuable class or function that is reusable! This can range from Navagation Bars to Ads.
